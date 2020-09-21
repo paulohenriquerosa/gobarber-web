@@ -47,7 +47,7 @@ describe('Input Component', () => {
     });
   });
 
-  it('Should keep input border highlight when inout filled', async () => {
+  it('Should keep input border highlight when input filled', async () => {
     const { getByPlaceholderText, getByTestId } = render(
       <Input name="email" placeholder="E-mail" />,
     );
@@ -62,7 +62,7 @@ describe('Input Component', () => {
     fireEvent.blur(inputElement);
 
     await waitFor(() => {
-      expect(containerElement).not.toHaveStyle('color:#ff9000');
+      expect(containerElement).toHaveStyle('color:#ff9000');
     });
   });
 });

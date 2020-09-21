@@ -6,7 +6,6 @@ import * as Yup from 'yup';
 
 import { FiArrowLeft, FiMail, FiUser, FiLock } from 'react-icons/fi';
 import { useToast } from '../../hooks/toast';
-import { useAuth } from '../../hooks/auth';
 
 import getValidationErrors from '../../utils/getValidationErros';
 import { Container, Content, Background, AnimatedContainer } from './styles';
@@ -14,6 +13,7 @@ import { Container, Content, Background, AnimatedContainer } from './styles';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 import logoImg from '../../assets/logo.svg';
+import api from '../../services/api';
 
 interface SignUpFormData {
   name: string;
@@ -26,7 +26,6 @@ const SignUp: React.FC = () => {
 
   const { addToast } = useToast();
   const history = useHistory();
-  const { signUp } = useAuth();
 
   const hanldeSubmit = useCallback(
     async (data: SignUpFormData) => {
@@ -45,7 +44,7 @@ const SignUp: React.FC = () => {
           abortEarly: false,
         });
 
-        await signUp(data);
+        await api.post('/user', data);
 
         addToast({
           type: 'success',
@@ -69,7 +68,7 @@ const SignUp: React.FC = () => {
         });
       }
     },
-    [addToast, history, signUp],
+    [addToast, history],
   );
 
   return (
