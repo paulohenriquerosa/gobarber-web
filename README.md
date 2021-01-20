@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="https://res.cloudinary.com/eliasgcf/image/upload/v1588625369/GoBarber/logo_iw1v9f.svg" width="200px">
+  <img alt="Logo" src="https://github.com/paulohenriquerosa/gobarber-web/blob/master/img/logo.png" width="200px">
 </h1>
 
 <h3 align="center">
@@ -39,7 +39,7 @@
 </br>
 
 <p align="center">
-  <img alt="Layout" src="https://res.cloudinary.com/eliasgcf/image/upload/v1588811213/GoBarber/Kapture_2020-05-06_at_21.25.26_tijnl5.gif">
+  <img alt="Layout" src="https://github.com/paulohenriquerosa/gobarber-web/blob/master/img/web.png">
 </p>
 
 ## 💇🏻‍♂️ About the project
