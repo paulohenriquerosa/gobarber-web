@@ -101,7 +101,7 @@ $ yarn start
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork EliasGcf/gobarber-web
+$ gh repo fork paulohenriquerosa/gobarber-web
 ```
 
 **Follow the steps below**
