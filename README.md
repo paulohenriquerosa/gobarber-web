@@ -12,7 +12,7 @@
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/paulohenriquerosa/gobarber-web?color=%23FF9000">
 
   <a href="https://www.linkedin.com/in/paulo-henrique-rosa/" target="_blank" rel="noopener noreferrer">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-elias%20gabriel-%23FF9000">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-paulo%20henrique-%23FF9000">
   </a>
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/paulohenriquerosa/gobarber-web?color=%23FF9000">
@@ -128,4 +128,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with 💜 by Elias Gabriel 👋 [See my linkedin](https://www.linkedin.com/in/paulo-henrique-rosa/)
+Made with 💜 by Paulo Henrique 👋 [See my linkedin](https://www.linkedin.com/in/paulo-henrique-rosa/)
